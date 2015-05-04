@@ -1,8 +1,8 @@
-Unity-CarTutorialProject-Gotow
-==============================
+Unity5-Gotow-Car-Tutorial
+=========================
 
 Gotow Unity Car Tutorial from 2009.  
-Upgraded to work with Unity 4.6  
+Upgraded to work with Unity 5  
 Maya Models Replaced with FBX Models.  
 AIF Audio Replaced with Ogg Vorbis.  
 
