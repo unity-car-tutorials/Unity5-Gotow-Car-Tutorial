@@ -6,6 +6,7 @@ build/**
 *.swp
 *~.nib
 
+
 *.pbxuser
 *.perspective
 *.perspectivev3
@@ -40,6 +41,9 @@ Library/guidmapper
 *.userprefs
 *.user
 *.suo
+
+*.log
+
 
 #OS Junk
 Thumbs.db

@@ -14,9 +14,15 @@ public class EasySuspension : MonoBehaviour {
 
 	public bool setSuspensionDistance = true;
 
+	private WheelCollider[] wheels;
+	
+	void Start ()
+	{
+		wheels = GetComponentsInChildren<WheelCollider> ();
+	}
+
 	void Update () {
 		// work out the stiffness and damper parameters based on the better spring model
-		WheelCollider[] wheels = GetComponentsInChildren<WheelCollider> ();
 
 		for (int i = 0; i < wheels.Length; i++) {
 	

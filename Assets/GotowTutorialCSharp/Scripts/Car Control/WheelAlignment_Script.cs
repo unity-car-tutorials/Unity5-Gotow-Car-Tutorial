@@ -7,9 +7,15 @@ using System.Collections;
 public class WheelAlignment_Script : MonoBehaviour {
 
 	public WheelCollider CorrespondingCollider;
-	public GameObject SlipPrefab;
-
-	void  Update (){
+	public GameObject tapObject;
+	private ParticleSystemTap tap;
+	
+	void Awake()
+	{
+		tap = tapObject.GetComponent<ParticleSystemTap>();
+	}
+	
+	void Update (){
 				
 		Quaternion rotation;
 		Vector3 position;
@@ -25,8 +31,9 @@ public class WheelAlignment_Script : MonoBehaviour {
 		// if the slip of the tire is greater than 0.1f, and the slip prefab exists, create an instance of it on the ground at
 		// a zero rotation.
 		if ( Mathf.Abs( CorrespondingGroundHit.sidewaysSlip ) > 0.1f ) {
-			if ( SlipPrefab ) {
-				Instantiate( SlipPrefab, CorrespondingGroundHit.point, Quaternion.identity );
+			if (tap != null) {
+				// CorrespondingGroundHit.point stores the point where particles can be emitted
+				tap.Play();
 			}
 		}
 		
