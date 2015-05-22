@@ -1,38 +1,45 @@
 fileFormatVersion: 2
-guid: 74ec7c8114cc945689a864c290c64488
+guid: fd317034bdae84e00bf700c06b310edb
+timeCreated: 1432326035
+licenseType: Free
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 18
   fileIDToRecycleName:
-    100000: BackLeftWheel
-    100002: BackRightWheel
-    100004: //RootNode
-    100006: FrontLeftWheel
-    100008: FrontRightWheel
-    100010: Wheels
-    400000: BackLeftWheel
-    400002: BackRightWheel
-    400004: //RootNode
-    400006: FrontLeftWheel
-    400008: FrontRightWheel
-    400010: Wheels
-    2300000: BackLeftWheel
-    2300002: BackRightWheel
-    2300004: //RootNode
-    2300006: FrontLeftWheel
-    2300008: FrontRightWheel
-    3300000: BackLeftWheel
-    3300002: BackRightWheel
-    3300004: //RootNode
-    3300006: FrontLeftWheel
-    3300008: FrontRightWheel
-    4300000: Body
-    4300002: FrontLeftWheel
-    4300004: BackLeftWheel
-    4300006: FrontRightWheel
-    4300008: BackRightWheel
+    100000: g Grass
+    100002: g Grass 1
+    100004: g Road
+    100006: g Wall
+    100008: g Wall 1
+    100010: //RootNode
+    400000: g Grass
+    400002: g Grass 1
+    400004: g Road
+    400006: g Wall
+    400008: g Wall 1
+    400010: //RootNode
+    2300000: g Grass
+    2300002: g Grass 1
+    2300004: g Road
+    2300006: g Wall
+    2300008: g Wall 1
+    3300000: g Grass
+    3300002: g Grass 1
+    3300004: g Road
+    3300006: g Wall
+    3300008: g Wall 1
+    4300000: g Grass
+    4300002: g Wall
+    4300004: g Road
+    4300006: g Grass
+    4300008: g Wall
+    6400000: g Grass
+    6400002: g Grass 1
+    6400004: g Road
+    6400006: g Wall
+    6400008: g Wall 1
     9500000: //RootNode
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
@@ -50,25 +57,27 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 380
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     human: []
@@ -85,3 +94,5 @@ ModelImporter:
   animationType: 2
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

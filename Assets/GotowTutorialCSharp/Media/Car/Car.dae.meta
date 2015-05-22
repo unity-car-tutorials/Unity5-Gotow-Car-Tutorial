@@ -1,16 +1,38 @@
 fileFormatVersion: 2
-guid: 8f1100e1d4a0e4353bc03af6ebb4bda2
+guid: de144324c0a4a48ac977876bc49d2afd
+timeCreated: 1432326538
+licenseType: Free
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Track
+    100000: BackLeftWheel
+    100002: BackRightWheel
+    100004: //RootNode
+    100006: FrontLeftWheel
+    100008: FrontRightWheel
+    400000: BackLeftWheel
+    400002: BackRightWheel
+    400004: //RootNode
+    400006: FrontLeftWheel
+    400008: FrontRightWheel
+    2300000: BackLeftWheel
+    2300002: BackRightWheel
+    2300004: //RootNode
+    2300006: FrontLeftWheel
+    2300008: FrontRightWheel
+    3300000: BackLeftWheel
+    3300002: BackRightWheel
+    3300004: //RootNode
+    3300006: FrontLeftWheel
+    3300008: FrontRightWheel
+    4300000: Body
+    4300002: FrontLeftWheel
+    4300004: BackLeftWheel
+    4300006: FrontRightWheel
+    4300008: BackRightWheel
     9500000: //RootNode
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
@@ -28,7 +50,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: .0599999987
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -36,17 +58,19 @@ ModelImporter:
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     human: []
@@ -63,3 +87,5 @@ ModelImporter:
   animationType: 2
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
