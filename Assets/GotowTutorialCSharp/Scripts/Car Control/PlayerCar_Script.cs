@@ -39,13 +39,13 @@ public class PlayerCar_Script : MonoBehaviour {
 		audioSource = GetComponent<AudioSource> ();
 
 		// I usually alter the center of mass to make the car more stable. I'ts less likely to flip this way.
-		rigidBody.centerOfMass = new Vector3 (rigidBody.centerOfMass.x, -1f, rigidBody.centerOfMass.z);
+		rigidBody.centerOfMass = new Vector3 (rigidBody.centerOfMass.x, -1.5f, rigidBody.centerOfMass.z);
 
 		// Needed for better RPM readings for heavy vehciles
 		FrontLeftWheel.ConfigureVehicleSubsteps (5f, 10, 10);
 	}
 	
-	void  Update (){
+	void  FixedUpdate (){
 		
 		// This is to limith the maximum speed of the car, adjusting the drag probably isn't the best way of doing it,
 		// but it's easy, and it doesn't interfere with the physics processing.

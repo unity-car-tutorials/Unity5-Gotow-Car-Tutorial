@@ -52,7 +52,7 @@ public class AICar_Script : MonoBehaviour {
 		audioSource = GetComponent<AudioSource> ();
 
 		// I usually alter the center of mass to make the car more stable. I'ts less likely to flip this way.
-		rigidBody.centerOfMass = new Vector3 (GetComponent<Rigidbody>().centerOfMass.x, -1f, rigidBody.centerOfMass.z);
+		rigidBody.centerOfMass = new Vector3 (GetComponent<Rigidbody>().centerOfMass.x, -1.5f, rigidBody.centerOfMass.z);
 		// Call the function to determine the array of waypoints. This sets up the array of points by finding
 		// transform components inside of a source container.
 
@@ -62,7 +62,7 @@ public class AICar_Script : MonoBehaviour {
 		GetWaypoints();
 	}
 	
-	void  Update (){
+	void  FixedUpdate (){
 		
 
 		// This is to limith the maximum speed of the car, adjusting the drag probably isn't the best way of doing it,

@@ -18,6 +18,7 @@ public class ParticleSystemTap : MonoBehaviour {
 	
 	public void Play()
 	{
-		system.Emit(1);
+		if (initialized)
+			system.Emit(1);
 	}
 }
